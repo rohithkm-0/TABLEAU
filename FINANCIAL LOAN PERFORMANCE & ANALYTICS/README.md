@@ -1,12 +1,10 @@
 # 💰 Financial Loan Performance & Analytics Dashboard
 
-An interactive **Tableau dashboard** developed to analyze loan portfolio performance, borrower characteristics, repayment trends, and financial risk metrics. The dashboard provides valuable insights into loan funding, payment performance, interest rates, employment history, and customer demographics through interactive visualizations.
+An interactive **Tableau dashboard** developed to analyze loan portfolio performance, borrower characteristics, repayment trends, and financial metrics. This project demonstrates a complete **data analytics workflow**, starting with data cleaning and transformation in **Microsoft Excel Power Query**, followed by the creation of an interactive Tableau dashboard for business insights.
 
 ---
 
 ## 📊 Dashboard Preview
-
-> *(Add your dashboard screenshot here)*
 
 ![Dashboard Preview](Dashboard.png)
 
@@ -14,21 +12,39 @@ An interactive **Tableau dashboard** developed to analyze loan portfolio perform
 
 ## 📌 Project Overview
 
-This dashboard provides a comprehensive overview of loan performance and customer profiles. Users can explore loan data using interactive filters to understand funding patterns, repayment status, borrower income, loan purpose, and other financial indicators.
+This project focuses on analyzing financial loan data to uncover trends in loan funding, repayments, borrower profiles, interest rates, employment history, and home ownership. Before visualization, the raw dataset was cleaned and transformed using **Microsoft Excel Power Query** to improve data quality and ensure accurate analysis. The cleaned dataset was then used to build an interactive Tableau dashboard featuring dynamic filters, KPIs, and insightful visualizations.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze loan portfolio performance.
+- Analyze overall loan portfolio performance.
 - Monitor loan funding and repayment amounts.
 - Evaluate loan status distribution.
-- Identify major loan purposes.
+- Identify the most common loan purposes.
 - Analyze monthly loan issuance trends.
-- Compare interest rates across loan grades.
+- Compare interest rates across different loan grades.
 - Study borrower employment length.
 - Understand annual income distribution.
 - Analyze home ownership categories.
+- Enable interactive exploration using filters.
+
+---
+
+## 🔄 Data Preparation
+
+The raw dataset was cleaned and transformed using **Microsoft Excel Power Query** before importing it into Tableau.
+
+### Data Cleaning & Transformation Tasks
+
+- Removed duplicate records
+- Handled missing and null values
+- Corrected inconsistent data entries
+- Standardized categorical values
+- Converted data types (Text, Date, Number)
+- Renamed columns for better readability
+- Validated data quality and consistency
+- Prepared the dataset for Tableau visualization
 
 ---
 
@@ -45,7 +61,7 @@ This dashboard provides a comprehensive overview of loan performance and custome
 ## 📊 Dashboard Features
 
 ### 🔹 Loan Status Analysis
-Displays the number of loans categorized as:
+Displays loan distribution based on:
 
 - Fully Paid
 - Charged Off
@@ -53,42 +69,42 @@ Displays the number of loans categorized as:
 
 ### 🔹 Loan Purpose Analysis
 
-Analyzes loan amounts based on purposes such as:
+Analyzes loan amounts across different purposes including:
 
 - Debt Consolidation
+- Major Purchase
 - Car
 - Medical
 - Home Improvement
 - Education
 - Small Business
 - Vacation
-- Major Purchase
 - Moving
 - Renewable Energy
 
 ### 🔹 Monthly Loan Trend
 
-Visualizes monthly loan issuance to identify funding trends throughout the year.
+Visualizes monthly loan funding trends to identify seasonal patterns.
 
 ### 🔹 Interest Rate Analysis
 
-Compares average interest rates across different loan grades (A–G).
+Compares average interest rates across loan grades (A–G).
 
 ### 🔹 Employment Length Analysis
 
-Shows loan distribution based on borrower employment experience.
+Analyzes loan distribution based on borrower employment experience.
 
 ### 🔹 Annual Income Analysis
 
-Segments borrowers into annual income groups to understand customer demographics.
+Segments borrowers into different annual income groups.
 
 ### 🔹 Grade Analysis
 
-Analyzes loan amounts distributed across different loan grades.
+Compares loan amounts across different loan grades.
 
 ### 🔹 Home Ownership Analysis
 
-Displays borrower home ownership categories:
+Visualizes borrower home ownership categories:
 
 - Mortgage
 - Rent
@@ -104,28 +120,33 @@ The dashboard includes dynamic filters for:
 - Loan Purpose
 - Issue Month
 
-These filters update all visualizations simultaneously.
+All dashboard visualizations update instantly based on selected filters.
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- Tableau Desktop
-- Data Cleaning & Preparation
-- Calculated Fields
+### Microsoft Excel
+
+- Power Query
+- Data Cleaning
+- Data Transformation
+- Data Validation
+
+### Tableau Desktop
+
+- Interactive Dashboard
 - KPI Cards
-- Interactive Filters
-- Bar Charts
-- Line Charts
-- Treemap
-- Pie Chart
+- Calculated Fields
+- Parameters & Filters
 - Dashboard Actions
+- Business Intelligence Visualizations
 
 ---
 
 ## 📂 Dataset
 
-The dataset includes information such as:
+The dataset contains financial loan information, including:
 
 - Loan ID
 - Loan Amount
@@ -146,12 +167,53 @@ The dataset includes information such as:
 ## 📊 Key Insights
 
 - Fully Paid loans account for the largest share of the portfolio.
-- Loan funding shows a steady increase throughout the year.
+- Loan funding increases steadily throughout the year.
 - Debt Consolidation and Major Purchase are among the most common loan purposes.
-- Borrowers with longer employment history receive a higher number of loans.
+- Borrowers with longer employment history receive more loans.
 - Lower loan grades generally have higher average interest rates.
-- Most borrowers fall within the middle-income groups.
+- Most borrowers belong to middle-income groups.
 - Mortgage and Rent are the dominant home ownership categories.
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw Loan Dataset
+        │
+        ▼
+Microsoft Excel
+(Power Query)
+Data Cleaning &
+Transformation
+        │
+        ▼
+Cleaned Dataset
+        │
+        ▼
+Tableau Desktop
+(Data Analysis &
+Visualization)
+        │
+        ▼
+Interactive Financial Loan Analytics Dashboard
+```
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Microsoft Excel Power Query
+- Data Validation
+- Data Analysis
+- Business Intelligence
+- Dashboard Design
+- KPI Development
+- Interactive Dashboard Creation
+- Financial Data Analysis
+- Tableau Visualization
 
 ---
 
@@ -170,13 +232,13 @@ Financial-Loan-Performance-Analytics/
 
 ## 🚀 How to Use
 
-1. Clone the repository.
+1. Clone this repository.
 
 ```bash
 git clone https://github.com/your-username/Financial-Loan-Performance-Analytics.git
 ```
 
-2. Open the `.twbx` file using Tableau Desktop.
+2. Open the `.twbx` file using **Tableau Desktop**.
 
 3. Explore the dashboard using the interactive filters.
 
@@ -189,8 +251,9 @@ git clone https://github.com/your-username/Financial-Loan-Performance-Analytics.
 - Interactive KPI Cards
 - Dynamic Filters
 - Loan Performance Analysis
+- Interest Rate Analysis
+- Employment & Income Analysis
 - Customer Demographics
-- Financial Trend Analysis
 - Business Intelligence Dashboard
 
 ---
@@ -201,7 +264,7 @@ git clone https://github.com/your-username/Financial-Loan-Performance-Analytics.
 
 **Data Analyst | Tableau | Microsoft Excel | Python**
 
-Passionate about building interactive dashboards that transform financial data into meaningful business insights.
+Passionate about transforming raw data into meaningful business insights through data cleaning, visualization, and interactive dashboard development.
 
 ---
 
